@@ -18,14 +18,16 @@
             android:id="@+id/gradesBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calificaciones"/>
+            android:text="Calificaciones"
+            android:onClick="gradesClick"/>
 
         <Button
             android:id="@+id/scheduleBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Horario"
-            android:layout_below="@+id/gradesBtn"/>
+            android:layout_below="@+id/gradesBtn"
+            android:onClick="horarioClick"/>
     </RelativeLayout>
 
 

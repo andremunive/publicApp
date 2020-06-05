@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
     public void showHomeView(){
         finish();
         Intent homeIntent = new Intent(this, homeStudent.class);
+        homeIntent.putExtra("usuario", user.getText().toString());
         startActivity(homeIntent);
     }
 
