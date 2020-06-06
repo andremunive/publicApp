@@ -54,7 +54,8 @@ public class homeStudent extends AppCompatActivity {
     }
 
     public void horarioClick(View view){
-
+        Intent horarioIntent = new Intent(this, horario.class);
+        startActivity(horarioIntent);
     }
 
 
